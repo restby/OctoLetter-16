@@ -2,8 +2,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <meta name="color-scheme" content="light dark" />
-  <meta name="supported-color-schemes" content="light dark" /> -->
+  <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" />
   <title>Octo Browser</title>
   <style type="text/css">
     table {
@@ -34,6 +34,17 @@
       line-height: 25px;
       font-weight: 400;
       color: #727272;
+    }
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    ul,
+    ol {
+      margin: 0;
     }
 
     b {
@@ -93,7 +104,7 @@
     }
 
     /* Custom Dark Mode Colors */
-    /* :root {
+    :root {
       color-scheme: light dark;
       supported-color-schemes: light dark;
     }
@@ -110,13 +121,13 @@
         border-color: #ffffff !important;
       }
 
-      .main-block__wrap h1,
-      .main-block__wrap h2,
-      .main-block__wrap h3,
-      .main-block__wrap p,
-      .main-block__wrap span,
-      .main-block__wrap li,
-      .main-block__wrap b {
+      .main-block__container h1,
+      .main-block__container h2,
+      .main-block__container h3,
+      .main-block__container p,
+      .main-block__container span,
+      .main-block__container li,
+      .main-block__container b {
         color: #ffffff !important;
       }
 
@@ -139,7 +150,7 @@
       .footer__wrap span {
         color: #ffffff !important;
       }
-    } */
+    }
   </style>
 
   <!--[if (gte mso 9)|(IE)]>
